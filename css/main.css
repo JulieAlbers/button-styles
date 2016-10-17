@@ -8,6 +8,39 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: 1.125rem;
   text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #333;
+  padding: 0.75em;
+  border-radius: 8px;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+}
+
+.btn-ghost {
+  border-color: #333;
+  background-color: #fff;
+  color: #666;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.btn-warning {
+  background-color: #f33;
+}
+
+.btn-small {
+  font-size: 0.875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
